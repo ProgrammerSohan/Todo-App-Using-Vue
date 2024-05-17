@@ -9,7 +9,10 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <!-- <h1>{{ msg }}</h1> -->
+  <h1>I am Sohan</h1>
+  <i class="fa-brands fa-vuejs">Vue</i>
+
 
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
